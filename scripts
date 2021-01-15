@@ -1,0 +1,2 @@
+# Volume boi: Show the current volume percentage
+amixer -D pulse get Master | awk -F 'Left:|[][]' 'BEGIN {RS=""}{ print $3 }'
