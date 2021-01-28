@@ -2,7 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{" 🔋", "acpi | awk '{ print $4 }' | sed 's/,//'", 30, 0},
-	{"", "~/.Scripts/volume-dwmblocks", 0, 12},
+	{"", "~/.Scripts/volume-dwmblocks", 30, 12},
 	{"☀️ ", "~/.Scripts/brightness-dwmblocks", 0, 11},
 	{"", "~/.Scripts/harddrivespace", 30 , 0  },
 	{"🌡️ ", "sensors | grep temp1: -m1 | awk '{print $2}' | sed 's/\+//'", 20, 0},
